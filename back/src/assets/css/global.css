@@ -1,0 +1,29 @@
+html body #app {
+  height: 100vh;
+  min-width: 1366px;
+}
+
+span::selection,p::selection,pre::selection,input::selection,img::selection,div::selection,li::selection,em::selection,a::selection,i::selection,h1::selection,h2::selection,strong::selection {
+    color:#FFFFFF;
+    background-color:#ffc2f0;
+    text-shadow:none;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card {
+  box-shadow: 2px 2px 10px #f09ae9 !important;
+}
+
+.ql-editor {
+  max-height: 400px;
+  min-height: 400px;
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}

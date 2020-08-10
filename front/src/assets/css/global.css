@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(#ffebd9, #ecfbfc);
+}
+
+span::selection,p::selection,pre::selection,input::selection,img::selection,div::selection,li::selection,em::selection,a::selection,i::selection,h1::selection,h2::selection,strong::selection,br::selection {
+    color:#FFFFFF;
+    background-color:#bbcfff;
+    text-shadow:none;
+}
