@@ -160,7 +160,7 @@ router.get('/getwall/num',(req,res) => {
 
 router.get("/delete/wall", (req, res) => {
   console.log(req.query);
-  deleteimgSwiper(req.query.id).then((data) => {
+  delWallImg(req.query.id).then((data) => {
     if (!data || data.length === 0) {
       new Result("删除失败").fail(res);
     } else {
